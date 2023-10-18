@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400px;
+}
+
+.box {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sec-left {
+  display: inline-block;
+  width: 60%;
+  margin-top: 22%;
+  padding-left: 136px;
+}
+
+.sec-right {
+  display: inline-block;
+  width: 40%;
+  background: rgba(93, 93, 125, 0.16);
+  position: absolute;
+  height: 100vh;
+}
+
+img {
+  position: relative;
+  top: 25%;
+  right: 130px;
+}
+
+h1 {
+  color: #5d5d7d;
+  font-size: 70px;
+  line-height: 80px;
+  width: 368px;
+}
+
+p {
+  color: #5d5d7d;
+  font-size: 28px;
+  line-height: 48px;
+  opacity: 0.6;
+  margin: 15px 0;
+  width: 540px;
+}
+
+button {
+  color: #ffffff;
+  width: 269px;
+  height: 62px;
+  background: #9499ea;
+  box-shadow: (0px 10px 24px rgba(148, 153, 234, 0.1));
+  border: none;
+  border-radius: 30px;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.links {
+  color: #5d5d7d;
+  font-size: 28px;
+  line-height: 41px;
+  margin: 24px 41px 151px 57px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.work {
+  opacity: 0.4;
+}
+
+a:hover {
+  opacity: 0.4;
+}
+
+a:active {
+  opacity: 0.8;
+}
+
+header {
+  margin: 24px 0 0 57px;
+}
+
+@media screen and (max-width: 1000px) {
+  .sec-left {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sec-right {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;
+  }
+
+  img {
+    position: static;
+    width: 90%;
+  }
+
+  header {
+    display: none;
+  }
+
+  h1 {
+    color: #5d5d7d;
+    text-align: center;
+    font-size: 36px;
+    line-height: 52px;
+    width: auto;
+    margin: 58px 50px 0 50px;
+  }
+
+  p {
+    margin: 15px 40px;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .sec-left {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sec-left {
+    height: 60%;
+  }
+}
